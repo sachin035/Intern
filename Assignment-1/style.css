@@ -1,0 +1,123 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Open Sans", sans-serif;
+  font-family: "Poppins", sans-serif;
+  box-sizing: border-box;
+}
+body {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: aliceblue;
+}
+
+.main-container {
+  border-radius: 24px;
+  width: 370px;
+  height: 400px;
+  /* width: 370px;
+  height: 400px; */
+  flex-shrink: 0;
+  border-radius: 26px;
+  background: #fff;
+  box-shadow: 0px 1.85185px 3.14815px 0px rgba(0, 0, 0, 0),
+    0px 8.14815px 6.51852px 0px rgba(0, 0, 0, 0.01),
+    0px 20px 13px 0px rgba(0, 0, 0, 0.01),
+    0px 38.51852px 25.48148px 0px rgba(0, 0, 0, 0.01),
+    0px 64.81481px 46.85185px 0px rgba(0, 0, 0, 0.02),
+    0px 100px 80px 0px rgba(0, 0, 0, 0.02);
+  padding: 20px 25px 31px;
+}
+.pic-container {
+  width: 321px;
+  height: 161px;
+  /* flex-shrink: 0; */
+  border-radius: 24px;
+  background: lightgray 50% cover no-repeat;
+}
+.pic-container img {
+  height: 100%;
+  width: 100%;
+  object-fit: content;
+}
+.description-container {
+  display: flex;
+  flex-direction: column;
+  padding: 25px 26px;
+}
+
+.description-container > h1 {
+  color: #080809;
+  font-family: Poppins;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 124.5%;
+  letter-spacing: 0.27px;
+}
+/* .description-container > p {
+  padding-right: 13px;
+} */
+
+.details {
+  display: flex;
+  color: #84829a;
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 124.5%;
+  letter-spacing: -0.08px;
+  padding-top: 13px;
+  gap: 8px;
+}
+
+.icons {
+  display: flex;
+  gap: 39px;
+  padding-top: 15px;
+}
+.icon svg {
+  width: 14px;
+  height: 14px;
+}
+.icon {
+  height: 36px;
+  width: 36px;
+
+  background-color: #f5f5f5;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+/* .icons {
+  width: 100%;
+
+  padding-top: 21px;
+  display: flex;
+  gap: 15px;
+}
+.icon {
+  border-radius: 50%;
+  background-color: #84829a;
+} */
+
+.participation {
+  display: flex;
+  padding-top: 30px;
+  gap: 15px;
+}
+.participation > p {
+  color: #84829a;
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 124.5%;
+  letter-spacing: -0.32px;
+}
