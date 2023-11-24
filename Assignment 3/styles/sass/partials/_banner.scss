@@ -1,0 +1,64 @@
+.banner {
+  @include flex;
+  // gap: 268.78px;
+  &__left {
+    // max-width: 586px;
+    max-width: 50%;
+  }
+  &__title {
+    color: $white;
+    font-size: $base-font-size * 3.5;
+    font-weight: 700;
+    line-height: 70px; /* 125% */
+    letter-spacing: -1.12px;
+  }
+  &__description {
+    font-size: 18px;
+    font-weight: 400;
+    color: #b6b3eb;
+  }
+  &__button {
+    display: flex;
+    justify-content: flex-start;
+    gap: 32px;
+  }
+  &__stats {
+    @include flex;
+    gap: 52px;
+    margin-top: 40px;
+    &--number {
+      color: $white;
+      font-size: 32px;
+      font-weight: 600;
+    }
+    &--description {
+      color: #b6b3eb;
+      font-weight: 400;
+    }
+  }
+  &__right {
+    // max-width: 585px;
+    max-width: 50%;
+  }
+  &__imagewrapper {
+    max-width: 583.437px;
+
+    img {
+      width: 100%;
+    }
+  }
+
+  @media screen and (max-width: 768px) {
+    &__group {
+      max-width: 583.437px;
+    }
+  }
+  @media screen and (max-width: 576px) {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  // img {
+  //   width: 100%;
+  // }
+}

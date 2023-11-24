@@ -1,0 +1,47 @@
+@mixin flex {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header {
+  @include flex;
+  background: transparent;
+  // margin-top: 120px;
+  //   padding-top: 39px;
+  margin: 0px 36px;
+  &__logo {
+    img {
+      max-width: 100%;
+      height: auto;
+      order: 1;
+    }
+  }
+  &__nav {
+    @include flex;
+    gap: 32px;
+    list-style-type: none;
+    order: 2;
+  }
+  &__hamburgermenu {
+    display: none;
+  }
+
+  @media screen and (max-width: 768px) {
+    margin: 0;
+  }
+  @media screen and (max-width: 576px) {
+    .header {
+      margin: 0px 0px;
+      &__nav {
+        display: none;
+        order: 3;
+      }
+      &__hamburgermenu {
+        display: block;
+        order: 2;
+        cursor: pointer;
+      }
+    }
+  }
+}

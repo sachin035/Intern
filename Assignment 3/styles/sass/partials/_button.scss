@@ -1,0 +1,33 @@
+.btn {
+  color: $white;
+  font-weight: 500;
+  border: none;
+  justify-content: center;
+  align-items: center;
+  border-radius: 8px;
+  font-family: $font-family;
+
+  &.small {
+    padding: 12px 24px;
+    background: rgba(255, 255, 255, 0.1);
+    line-height: 20px;
+  }
+  &.large {
+    padding: 24px 32px;
+    background: $black;
+    font-size: 18px;
+  }
+  &.medium {
+    padding: 24px 32px;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    background: transparent;
+    font-size: 18px;
+    // gap: 10px;
+  }
+  &.small-medium {
+    color: $black;
+    padding: 16px 32px;
+    font-weight: 500;
+    background: $white;
+  }
+}

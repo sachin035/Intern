@@ -1,0 +1,12 @@
+.bg-logo {
+  background: $primary-color;
+}
+
+.logo {
+  @include flex;
+  height: 84px;
+  &__imgWrapper {
+    width: 179.243px;
+    height: 35.51px;
+  }
+}

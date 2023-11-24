@@ -1,0 +1,25 @@
+$font-family: "Plus Jakarta Sans", sans-serif;
+
+// font sizes
+$base-font-size: 16px;
+$heading-font-size: 40px;
+$card-title-font-size: 20px;
+
+// colors
+$primary-color: #5d55ff;
+$black: #1d1c31;
+$body-text-color: transparentize($black, 0.6);
+$white: #ffffff;
+$link-color: $black;
+$background: linear-gradient(45deg, #1b13a6 49.59%, #443cdf 88.57%), #fff;
+
+// spacings
+$title-margin-bottom: 40px;
+$card-items-spacing: 32px;
+
+//arrow
+// $arrow-svg-image: url('<svg xmlns="http://www.w3.org/2000/svg" width="19" height="18" viewBox="0 0 19 18" fill="none">
+// <path d="M9.3335 3L8.276 4.0575L12.461 8.25H3.3335V9.75H12.461L8.276 13.9425L9.3335 15L15.3335 9L9.3335 3Z" fill="#1D1C31"/>
+// </svg>');
+
+$desktop-max-width: 1400px;

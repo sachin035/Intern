@@ -1,0 +1,44 @@
+.picture {
+  @include flex;
+  position: relative;
+  margin-top: 120px;
+
+  // object-fit: contain;
+  &__modal {
+    max-width: 1168px;
+    height: 580px;
+    &img {
+      width: 100%;
+    }
+  }
+  &__picContainer {
+    width: 688px;
+    padding: 52px;
+    background-color: $white;
+    position: absolute;
+    right: 0;
+    top: 86px;
+  }
+  &__title {
+    color: $black;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 52px;
+    letter-spacing: -0.8px;
+    width: 60%; //actual width ko 60% of picContaner ..no padding included
+  }
+  &__paragraph {
+    color: rgba(29, 28, 49, 0.6);
+    font-weight: 400;
+    line-height: 28px;
+    margin-top: 24px;
+    width: 584px;
+  }
+  &__buttonPic {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 24px;
+    margin-top: 40px;
+  }
+}
